@@ -1,0 +1,74 @@
+﻿<Window x:Class="GUI1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI1"
+        mc:Ignorable="d"
+        Title="Chọn sách" Height="450" Width="600"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <GroupBox Header="Chọn sách" Grid.Row="0" FontWeight="Bold">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Margin="5">
+                    <TextBlock Text="Danh sách" Margin="0,0,0,5" />
+                    <ListBox x:Name="lstDanhSach" Height="300">
+                        <ListBoxItem Content="Công nghệ thực tế ảo"/>
+                        <ListBoxItem Content="Đảm bảo chất lượng phần mềm"/>
+                        <ListBoxItem Content="Giải thuật di truyền và ứng dụng"/>
+                        <ListBoxItem Content="Hệ chuyên gia"/>
+                        <ListBoxItem Content="Lập trình căn bản"/>
+                        <ListBoxItem Content="Lập trình hướng đối tượng"/>
+                        <ListBoxItem Content="Lập trình mạng"/>
+                        <ListBoxItem Content="Lập trình trên Windows" IsSelected="True"/>
+                        <ListBoxItem Content="Một số phương pháp tính toán mềm"/>
+                        <ListBoxItem Content="Nhập môn tin học"/>
+                        <ListBoxItem Content="Phân tích thiết kế hệ thống"/>
+                        <ListBoxItem Content="Phân tích và thống kê số liệu"/>
+                        <ListBoxItem Content="Thiết kế Cơ sở dữ liệu"/>
+                        <ListBoxItem Content="Thiết kế trang Web"/>
+                        <ListBoxItem Content="Tin Văn Phòng"/>
+                    </ListBox>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10,0">
+                    <Button x:Name="btnMoveAllRight" Content=">>" Width="50" Margin="0,5"/>
+                    <Button x:Name="btnMoveOneRight" Content=">" Width="50" Margin="0,5"/>
+
+                    <Button x:Name="btnMoveOneLeft" Content="&lt;" Width="50" Margin="0,5"/>
+
+                    <Button x:Name="btnMoveAllLeft" Content="&lt;&lt;" Width="50" Margin="0,5"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" Margin="5">
+                    <TextBlock Text="Sách đã chọn" Margin="0,0,0,5" />
+                    <ListBox x:Name="lstSachDaChon" Height="300">
+                        <ListBoxItem Content="Công nghệ thực tế ảo"/>
+                        <ListBoxItem Content="Giải thuật di truyền và ứng dụng"/>
+                        <ListBoxItem Content="Hệ chuyên gia"/>
+                        <ListBoxItem Content="Lập trình trên Windows"/>
+                    </ListBox>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+
+        <Button x:Name="btnThoat" Content="Thoát" Grid.Row="1" 
+                HorizontalAlignment="Right" Width="80" Margin="0,10,0,0"/>
+
+    </Grid>
+
+
+
+</Window>

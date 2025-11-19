@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET\\GUI1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08711666-08C9-4FF2-92B4-21C149F40651}|GUI1\\GUI1.csproj|c:\\.net\\gui1\\gui1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{08711666-08C9-4FF2-92B4-21C149F40651}|GUI1\\GUI1.csproj|solutionrelative:gui1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08711666-08C9-4FF2-92B4-21C149F40651}|GUI1\\GUI1.csproj|c:\\.net\\gui1\\gui1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08711666-08C9-4FF2-92B4-21C149F40651}|GUI1\\GUI1.csproj|solutionrelative:gui1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\.NET\\GUI1\\GUI1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUI1\\MainWindow.xaml",
+              "ToolTip": "C:\\.NET\\GUI1\\GUI1\\MainWindow.xaml",
+              "RelativeToolTip": "GUI1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T02:57:18.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\.NET\\GUI1\\GUI1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\.NET\\GUI1\\GUI1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T02:57:15.182Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

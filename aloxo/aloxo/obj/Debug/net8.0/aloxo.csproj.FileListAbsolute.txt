@@ -1,0 +1,15 @@
+C:\.NET\aloxo\aloxo\bin\Debug\net8.0\aloxo.exe
+C:\.NET\aloxo\aloxo\bin\Debug\net8.0\aloxo.deps.json
+C:\.NET\aloxo\aloxo\bin\Debug\net8.0\aloxo.runtimeconfig.json
+C:\.NET\aloxo\aloxo\bin\Debug\net8.0\aloxo.dll
+C:\.NET\aloxo\aloxo\bin\Debug\net8.0\aloxo.pdb
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.AssemblyInfoInputs.cache
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.AssemblyInfo.cs
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.csproj.CoreCompileInputs.cache
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.sourcelink.json
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.dll
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\refint\aloxo.dll
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.pdb
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\aloxo.genruntimeconfig.cache
+C:\.NET\aloxo\aloxo\obj\Debug\net8.0\ref\aloxo.dll
